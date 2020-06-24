@@ -14,4 +14,4 @@ import-module activedirectory
 ############################################
 #Get and export users to CSV
 ############################################
-Get-ADUser -filter * -Properties * | Select SamAccountName,SurName,GivenName,Description,PasswordExpired,PasswordLastSet,AccountLockoutTime,AccountExpirationDate,LastLogonDate,@{name=îMemberOfî;expression={$_.memberof -join ì;î}} | export-csv ìc:\UserSecurityAuditReport{0:yyyyMMdd}.csv" -f (get-date))
+Get-ADUser -filter * -Properties * | Select SamAccountName,SurName,GivenName,Description,Enabled,PasswordExpired,PasswordLastSet,AccountLockoutTime,AccountExpirationDate,LastLogonDate,@{name=‚ÄùMemberOf‚Äù;expression={$_.memberof -join ‚Äú;‚Äù}} | export-csv ‚Äúc:\UserSecurityAuditReport{0:yyyyMMdd}.csv" -f (get-date))
