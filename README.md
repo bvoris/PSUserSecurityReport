@@ -1,4 +1,15 @@
 # PSUserSecurityReport
+Created by: Brad Voris<BR />
+
+<img alt="GitHub" src="https://img.shields.io/github/license/bvoris/PSUserSecurityReport">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/bvoris/PSUserSecurityReport">
+<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/bvoris/PSUserSecurityReport/total">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/bvoris/PSUserSecurityReport">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/bvoris/PSUserSecurityReport">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/bvoris/PSUserSecurityReport">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/bvoris/PSUserSecurityReport">
+
+
 PSUserSecurityReport - PowerShell User Security Report<BR />
 Basic full export of all user attributes for SOC / SOX audit purposes.
 <BR />
