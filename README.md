@@ -1,9 +1,7 @@
 # PSUserSecurityReport
 Created by: Brad Voris<BR />
 PSUserSecurityReport - PowerShell User Security Report<BR />
-Basic full export of all user attributes for SOC / SOX audit purposes.
-<BR />
-
+Basic full export of all user attributes for SOC / SOX audit purposes.<BR />
 <img alt="GitHub" src="https://img.shields.io/github/license/bvoris/PSUserSecurityReport">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/bvoris/PSUserSecurityReport">
 <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/bvoris/PSUserSecurityReport/total">
