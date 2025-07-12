@@ -5,4 +5,4 @@
 import-module activedirectory
 
 #Get and export users to CSV
-Get-ADUser -filter * -Properties * | Select SamAccountName,SurName,GivenName,Description,Enabled,PasswordExpired,PasswordLastSet,AccountLockoutTime,AccountExpirationDate,LastLogonDate,@{name=”MemberOf”;expression={$_.memberof -join “;”}} | export-csv “c:\UserSecurityAuditReport{0:yyyyMMdd}.csv" -f (get-date))
+Get-ADUser -filter * -Properties * | Select SamAccountName,SurName,GivenName,ServicePrincipalName,SID,Description,Enabled,PasswordExpired,PasswordLastSet,AccountLockoutTime,AccountExpirationDate,LastLogonDate,@{name=”MemberOf”;expression={$_.memberof -join “;”}} | export-csv “c:\UserSecurityAuditReport{0:yyyyMMdd}.csv" -f (get-date))
